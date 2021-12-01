@@ -1,0 +1,8 @@
+name: RankShop
+version: 0.0.4
+api: 1.0.0
+author: Leon1917141
+main: RankShop.Main
+permission:
+  rankshop.buy.not:
+    default: false

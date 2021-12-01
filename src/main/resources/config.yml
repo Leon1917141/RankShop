@@ -1,0 +1,47 @@
+#All options for this Plugin!
+options:
+  messages:
+    prefix: '§3RankShop §f» '
+    plugin-activate: '§aPlugin has been activate!'
+    plugin-deactivate: '§cPlugin has been deactivate!'
+Command-options:
+  name: 'rankshop'
+  description: 'Open the RankShop!'
+  usagemessage: '§4Please use /rankshop!'
+  messages:
+    IsNotAPlayer: '§4This Command can you only use as Player!'
+    HaveNotEnoughMoney: '§4You are still missing'
+    HaveBuyARank: '§eYou have successfully bought a rank!'
+    HasPermission: '§3You cant buy an rank as Team!'
+UI:
+  Title: '§3RankShop'
+  Content: '§4Buy a Rank!'
+  Button: '§f» §3Tab to buy!'
+RankUI:
+  Content: 'This Rank costs: '
+  ButtonBuy: '§abuy'
+  ButtonBuyPicture: false
+  ButtonBuyPictureData: ''
+  ButtonBack: '§4Back'
+  ButtonBackPicture: false
+  ButtonBackPictureData: ''
+
+RankList:
+  - '0'
+  - '1'
+Ranks:
+  '0':
+    name: Premium
+    cost: 1000
+    picture: true
+    #Give here the path from Texturepack example textures/items/diamond_sword !
+    pictureData: 'textures/items/diamond_sword'
+  '1':
+    name: Supreme
+    cost: 1500
+    picture: false
+    #Give here the path from Texturepack example textures/items/diamond_sword !
+    pictureData: 'textures/items/diamond_sword'
+
+
+
